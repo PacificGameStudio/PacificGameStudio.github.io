@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Configuration - Procedural Generation Toolkit for Unity</title>
+  <title>Quick Start - Procedural Generation Toolkit for Unity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://PacificGameStudio.github.io/favicon.png">
@@ -41,10 +41,10 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="https://PacificGameStudio.github.io"><img alt="Logo" src="/images/logo.svg" /></a>
+      <a href="https://PacificGameStudio.github.io/"><img alt="Logo" src="/images/logo.svg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="https://PacificGameStudio.github.io"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
+      <a href="https://PacificGameStudio.github.io/"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
@@ -91,23 +91,23 @@
   <ul>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/install-hugo/">Scope</a>
+      <a href="https://PacificGameStudio.github.io/docs/install-hugo/">Lindenmayer System</a>
     </li>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/install-theme/">Features</a>
+      <a href="https://PacificGameStudio.github.io/docs/install-theme/">Our Difference</a>
     </li>
     
     <li class="active ">
-      <a href="https://PacificGameStudio.github.io/docs/configure/">Configuration</a>
+      <a href="https://PacificGameStudio.github.io/docs/configure/">Quick Start</a>
     </li>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/specimen/">Specimen</a>
+      <a href="https://PacificGameStudio.github.io/docs/specimen/">Technical details</a>
     </li>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/example/">Hugo Whisper</a>
+      <a href="https://PacificGameStudio.github.io/docs/example/">Contact</a>
     </li>
     
   </ul>
@@ -117,35 +117,12 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Configuration</h1>
+<h1 class="title">Quick Start</h1>
 <div class="content ">
-  <h2 id="syntax-highlighting">Syntax Highlighting</h2>
-<p>Whisper uses the in-built code highlighting that ships with hugo. <a href="https://gohugo.io/content-management/syntax-highlighting/">https://gohugo.io/content-management/syntax-highlighting/</a></p>
-<p>You can insert code snippets in any markdown file by using standard code fences syntax ie:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```
-</span></span><span class="line"><span class="cl">insert code here
-</span></span><span class="line"><span class="cl">```
-</span></span></code></pre></div><p>You can specify the langauge by adding a declaration after the backticks</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">```javascript
-</span></span><span class="line"><span class="cl">insert code here
-</span></span><span class="line"><span class="cl">```
-</span></span></code></pre></div><h3 id="pygments-options">Pygments Options</h3>
-<p>The following code highlighting options are configured in the <code>config.toml</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsCodefencesGuessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span></code></pre></div><h2 id="main-menu">Main menu</h2>
-<p>Configure the main menu by editing the <code>config.toml</code></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Home&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Docs&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/docs/&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
-</span></span></code></pre></div>
+  <p>The Static Generation system feature consisted of two major use cases. Use case B: “Configuring and Parametrizing Procedural Generation Algorithms for Static Generation” (see Section 2.2.2) and use case C: “Generation for Static Content Creation” (see Section 2.2.3). Use case B involves the situation where the user picks PGA and fulfills its input of choice. This use case is to ensure that the data type and values of the chosen PGA are correct in order to successfully describe the characteristics of the generation. This is a typical prerequisite to use case C. For example, in the figure below we can see the parameters required for the Recursion algorithm.</p>
+<p>The user may specify a variety of parameters, including but not limited to the maximum route length, the maximum number of routes and the deviation rate. By customizing these parameters the user can generate a multitude of different procedural generation game objects. Since the procedural generation toolkit contains many PGAs, each with their own unique parameters, the user has a variety of options to customize to achieve a map that meets their needs. This use case must also validate the parameters provided by the user to ensure that they are compatible with the selected PGA. This involves ensuring that the values supplied by the user are within the bounds required by the PGA. For example, in the figure above we would dismiss any parameters that have a negative integer value as that is not permitted for the Recursion algorithm. This restriction however may not be present for some other PGA and as such this use case must differentiate between the PGAs to perform its type and value checking.</p>
+<p>Use case C involves the situation where our toolkit generates the GameObject according to the user-selected PGA and parameters from use case B. The output GameObject is mutable and nondeterministic as every generation would have a specific seed. The user can visualize this generation on the Game scene and use it as generated, or regenerate the GameObject in hopes of a slightly different result that better matches their desires. Then, they can further customize the GameObject generation according to their preferences, where small details can be tweaked through the Editor.</p>
+
 </div>
 </div>
 

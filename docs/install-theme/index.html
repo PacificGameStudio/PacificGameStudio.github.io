@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Features - Procedural Generation Toolkit for Unity</title>
+  <title>Our Difference - Procedural Generation Toolkit for Unity</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="icon" href="https://PacificGameStudio.github.io/favicon.png">
@@ -41,10 +41,10 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="https://PacificGameStudio.github.io"><img alt="Logo" src="/images/logo.svg" /></a>
+      <a href="https://PacificGameStudio.github.io/"><img alt="Logo" src="/images/logo.svg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="https://PacificGameStudio.github.io"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
+      <a href="https://PacificGameStudio.github.io/"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
@@ -91,23 +91,23 @@
   <ul>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/install-hugo/">Scope</a>
+      <a href="https://PacificGameStudio.github.io/docs/install-hugo/">Lindenmayer System</a>
     </li>
     
     <li class="active ">
-      <a href="https://PacificGameStudio.github.io/docs/install-theme/">Features</a>
+      <a href="https://PacificGameStudio.github.io/docs/install-theme/">Our Difference</a>
     </li>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/configure/">Configuration</a>
+      <a href="https://PacificGameStudio.github.io/docs/configure/">Quick Start</a>
     </li>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/specimen/">Specimen</a>
+      <a href="https://PacificGameStudio.github.io/docs/specimen/">Technical details</a>
     </li>
     
     <li class="">
-      <a href="https://PacificGameStudio.github.io/docs/example/">Hugo Whisper</a>
+      <a href="https://PacificGameStudio.github.io/docs/example/">Contact</a>
     </li>
     
   </ul>
@@ -117,12 +117,16 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Features</h1>
+<h1 class="title">Our Difference</h1>
 <div class="content ">
-  <p>The Static Generation system feature consisted of two major use cases. Use case B: “Configuring and Parametrizing Procedural Generation Algorithms for Static Generation” (see Section 2.2.2) and use case C: “Generation for Static Content Creation” (see Section 2.2.3).
-Use case B involves the situation where the user picks PGA and fulfills its input of choice. This use case is to ensure that the data type and values of the chosen PGA are correct in order to successfully describe the characteristics of the generation. This is a typical prerequisite to use case C. For example, in the figure below we can see the parameters required for the Recursion algorithm.</p>
-<p>The user may specify a variety of parameters, including but not limited to the maximum route length, the maximum number of routes and the deviation rate. By customizing these parameters the user can generate a multitude of different procedural generation game objects. Since the procedural generation toolkit contains many PGAs, each with their own unique parameters, the user has a variety of options to customize to achieve a map that meets their needs. This use case must also validate the parameters provided by the user to ensure that they are compatible with the selected PGA. This involves ensuring that the values supplied by the user are within the bounds required by the PGA. For example, in the figure above we would dismiss any parameters that have a negative integer value as that is not permitted for the Recursion algorithm. This restriction however may not be present for some other PGA and as such this use case must differentiate between the PGAs to perform its type and value checking.</p>
-<p>Use case C involves the situation where our toolkit generates the GameObject according to the user-selected PGA and parameters from use case B. The output GameObject is mutable and nondeterministic as every generation would have a specific seed. The user can visualize this generation on the Game scene and use it as generated, or regenerate the GameObject in hopes of a slightly different result that better matches their desires. Then, they can further customize the GameObject generation according to their preferences, where small details can be tweaked through the Editor.</p>
+  <h2 id="how-can-we-simplify-the-working-of-l-system-into-a-skeleton-that-is-easy-for-user-to-understand">How can we simplify the working of L-system into a skeleton that is easy for user to understand?</h2>
+<p>Abstract L-system grammar and rule building so users don’t need to learn how to write it themselves</p>
+<h2 id="benefits">Benefits</h2>
+<ol>
+<li>Implement custom Tree Builder framework</li>
+<li>Parse user-generated skeleton ternary tree to internal L-system data structure</li>
+<li>Build a Rule List With Interactive Menu Style</li>
+</ol>
 
 </div>
 </div>
