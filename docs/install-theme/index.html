@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Features - Procedural Generation Toolkit for Unity</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="icon" href="https://PacificGameStudio.github.io/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css">
+  
+
+  
+
+</head>
+
+<body class='page page-default-single'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+  <div class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="https://PacificGameStudio.github.io"><img alt="Logo" src="/images/logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="https://PacificGameStudio.github.io"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  <ul>
+    
+    
+    <li class="menu-item-home">
+      <a href="/">
+        <span>Home</span>
+      </a>
+    </li>
+    
+    <li class="menu-item-docs">
+      <a href="/docs/">
+        <span>Docs</span>
+      </a>
+    </li>
+    
+  </ul>
+</div>
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <div class="container pt-2 pt-md-6 pb-3 pb-md-6">
+      <div class="row">
+        <div class="col-12 col-md-3 mb-3">
+          <div class="sidebar">
+            
+<div class="docs-menu">
+  <h4>Docs</h4>
+  <ul>
+    
+    <li class="">
+      <a href="https://PacificGameStudio.github.io/docs/install-hugo/">Scope</a>
+    </li>
+    
+    <li class="active ">
+      <a href="https://PacificGameStudio.github.io/docs/install-theme/">Features</a>
+    </li>
+    
+    <li class="">
+      <a href="https://PacificGameStudio.github.io/docs/configure/">Configuration</a>
+    </li>
+    
+    <li class="">
+      <a href="https://PacificGameStudio.github.io/docs/specimen/">Specimen</a>
+    </li>
+    
+    <li class="">
+      <a href="https://PacificGameStudio.github.io/docs/example/">Hugo Whisper</a>
+    </li>
+    
+  </ul>
+</div>
+
+          </div>
+        </div>
+        <div class="col-12 col-md-9">
+          
+<h1 class="title">Features</h1>
+<div class="content ">
+  <p>The Static Generation system feature consisted of two major use cases. Use case B: “Configuring and Parametrizing Procedural Generation Algorithms for Static Generation” (see Section 2.2.2) and use case C: “Generation for Static Content Creation” (see Section 2.2.3).
+Use case B involves the situation where the user picks PGA and fulfills its input of choice. This use case is to ensure that the data type and values of the chosen PGA are correct in order to successfully describe the characteristics of the generation. This is a typical prerequisite to use case C. For example, in the figure below we can see the parameters required for the Recursion algorithm.</p>
+<p>The user may specify a variety of parameters, including but not limited to the maximum route length, the maximum number of routes and the deviation rate. By customizing these parameters the user can generate a multitude of different procedural generation game objects. Since the procedural generation toolkit contains many PGAs, each with their own unique parameters, the user has a variety of options to customize to achieve a map that meets their needs. This use case must also validate the parameters provided by the user to ensure that they are compatible with the selected PGA. This involves ensuring that the values supplied by the user are within the bounds required by the PGA. For example, in the figure above we would dismiss any parameters that have a negative integer value as that is not permitted for the Recursion algorithm. This restriction however may not be present for some other PGA and as such this use case must differentiate between the PGAs to perform its type and value checking.</p>
+<p>Use case C involves the situation where our toolkit generates the GameObject according to the user-selected PGA and parameters from use case B. The output GameObject is mutable and nondeterministic as every generation would have a specific seed. The user can visualize this generation on the Game scene and use it as generated, or regenerate the GameObject in hopes of a slightly different result that better matches their desires. Then, they can further customize the GameObject generation according to their preferences, where small details can be tweaked through the Editor.</p>
+
+</div>
+</div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          <ul>
+            <li class="zerostatic"><a href="https://www.zerostatic.io">www.zerostatic.io</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/scripts.min.302a6fc365d5139fb98cf60bdb8f715d96257ea189161d36c190ccfa8182e569.js"></script>
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+
+</html>

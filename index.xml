@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Procedural Generation Toolkit for Unity</title>
+    <link>https://PacificGameStudio.github.io/</link>
+    <description>Recent content on Procedural Generation Toolkit for Unity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://PacificGameStudio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scope</title>
+      <link>https://PacificGameStudio.github.io/docs/install-hugo/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>https://PacificGameStudio.github.io/docs/install-hugo/</guid>
+      <description>To give context, Unity is a cross-platform 2D/3D game engine with a powerful IDE for developers to create games. The toolkit software supports the development of content creation in Unity. The generation toolkit would procedurally generate 2D or 3D maps that game developers can use in their own games without having to implement their own procedural generation algorithms. This toolkit takes in inputs and parameters from the user, such as which algorithm to use, the randomness parameters, seed, assets/textures, etc.</description>
+    </item>
+    
+    <item>
+      <title>Features</title>
+      <link>https://PacificGameStudio.github.io/docs/install-theme/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>https://PacificGameStudio.github.io/docs/install-theme/</guid>
+      <description>The Static Generation system feature consisted of two major use cases. Use case B: “Configuring and Parametrizing Procedural Generation Algorithms for Static Generation” (see Section 2.2.2) and use case C: “Generation for Static Content Creation” (see Section 2.2.3). Use case B involves the situation where the user picks PGA and fulfills its input of choice. This use case is to ensure that the data type and values of the chosen PGA are correct in order to successfully describe the characteristics of the generation.</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://PacificGameStudio.github.io/docs/configure/</link>
+      <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
+      
+      <guid>https://PacificGameStudio.github.io/docs/configure/</guid>
+      <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
+    </item>
+    
+    <item>
+      <title>Specimen</title>
+      <link>https://PacificGameStudio.github.io/docs/specimen/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>https://PacificGameStudio.github.io/docs/specimen/</guid>
+      <description>Markdown Test Page Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat commodo id sunt. Nostrud enim ad commodo incididunt cupidatat in ullamco ullamco Lorem cupidatat velit enim et Lorem.
+Heading two Aute officia nulla deserunt do deserunt cillum velit magna. Officia veniam culpa anim minim dolore labore pariatur voluptate id ad est duis quis velit dolor pariatur enim.</description>
+    </item>
+    
+    <item>
+      <title>Hugo Whisper</title>
+      <link>https://PacificGameStudio.github.io/docs/example/</link>
+      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
+      
+      <guid>https://PacificGameStudio.github.io/docs/example/</guid>
+      <description>&lt;p&gt;Whisper is a minimal documentation theme built for Hugo. The design &amp;amp; functionality is intentionally minimal.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
